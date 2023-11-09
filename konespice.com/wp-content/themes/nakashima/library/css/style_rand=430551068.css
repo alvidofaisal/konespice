@@ -1,5 +1,5 @@
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
-    display: block
+    display: block;
 }
 
 audio,canvas,video {
@@ -1103,13 +1103,13 @@ input[type="submit"] {
 
 .window-inquire .footer {
     margin-top: 10px;
-    text-align: right
+    text-align: right;
 }
 
 .window-inquire .footer:after {
     content: "";
     display: table;
-    clear: both
+    clear: both;
 }
 
 .window-inquire .footer input,.window-inquire .footer button {
@@ -2170,80 +2170,6 @@ html.fp-enabled,.fp-enabled body {
     .page-template-page-info .fp-tableCell {
         height: auto !important
     }
-}
-
-/*!--------------------------------------------------------------------
-STYLES "Outdated Browser"
-Version:    1.1.2 - 2015
-author:     Burocratik
-website:    http://www.burocratik.com
-* @preserve
------------------------------------------------------------------------*/
-#outdated {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    z-index: 1500;
-    background-color: #D9D9D6
-}
-
-#outdated h6 {
-    font-size: 25px;
-    line-height: 25px;
-    margin: 30px 0 10px;
-    text-transform: uppercase
-}
-
-#outdated p {
-    font-size: 14px;
-    line-height: 18px;
-    margin: 0
-}
-
-#outdated #btnUpdateBrowser {
-    display: block;
-    position: relative;
-    margin: 30px auto 0;
-    width: 300px;
-    color: #4A4A4A;
-    text-decoration: none;
-    cursor: pointer
-}
-
-#outdated .last {
-    position: absolute;
-    top: 10px;
-    right: 25px;
-    width: 20px;
-    height: 20px
-}
-
-#outdated .last[dir='rtl'] {
-    right: auto !important;
-    left: 25px !important
-}
-
-#outdated #btnCloseUpdateBrowser {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-decoration: none;
-    color: #4A4A4A;
-    font-size: 30px;
-    line-height: 30px
-}
-
-* html #outdated {
-    position: absolute
-}
-
-.ie8 #outdated {
-    display: block
 }
 
 html,* {
@@ -3374,17 +3300,17 @@ html.menu-panel-open body {
 
 @media (max-width: 767px) {
     html.menu-panel-open body {
-        height:80vh
+        height:80vh;
     }
 }
 
 #content {
     min-height: 100vh;
-    position: relative
+    position: relative;
 }
 
 .line-sep-footer {
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 @media (min-width: 1024px) {
@@ -3406,56 +3332,56 @@ html.menu-panel-open body {
 
 @media (min-width: 768px) {
     #footer .table-footer {
-        display:block
+        display: block;
     }
 }
 
 @media (min-width: 1680px) {
     #footer .table-footer {
-        padding:50px 0px 80px 0px
+        padding:50px 0px 80px 0px;
     }
 }
 
 @media (min-width: 768px) {
     #footer .table-footer {
-        font-size:14px
+        font-size:14px;
     }
 }
 
 @media (min-width: 1024px) {
     #footer .table-footer {
-        width:82.5%
+        width:82.5%;
     }
 }
 
 #footer .table-footer .row {
     width: 100%;
-    text-align: center
+    text-align: center;
 }
 
 #footer .table-footer .row:first-child .col:first-child,#footer .table-footer .row:first-child .col:last-child {
     font-family: 'GB';
-    font-size: 11px
+    font-size: 11px;
 }
 
 #footer .table-footer .row:last-child {
-    font-size: 12px
+    font-size: 12px;
 }
 
 @media (min-width: 768px) {
     #footer .table-footer .row {
         text-align:left;
-        display: table
+        display: table;
     }
 
     #footer .table-footer .row:first-child {
-        margin-bottom: 40px
+        margin-bottom: 40px;
     }
 
     #footer .table-footer .row .col {
         display: table-cell;
         width: 33.3%;
-        white-space: nowrap
+        white-space: nowrap;
     }
 
     #footer .table-footer .row .col:nth-child(2) {
@@ -3464,49 +3390,49 @@ html.menu-panel-open body {
 
     #footer .table-footer .row .col:nth-child(2) svg {
         vertical-align: middle;
-        display: inline-block
+        display: inline-block;
     }
 
     #footer .table-footer .row .col:last-child {
-        text-align: right
+        text-align: right;
     }
 }
 
 @media (min-width: 768px) {
     #footer .mobile-footer {
-        display:none
+        display:none;
     }
 }
 
 #footer .mobile-footer li {
     text-align: center;
-    line-height: 30px
+    line-height: 30px;
 }
 
 #footer .mobile-footer li svg {
     vertical-align: middle;
-    display: inline-block
+    display: inline-block;
 }
 
 #footer .mobile-footer .typo-light {
     font-size: 10px;
-    letter-spacing: 2px
+    letter-spacing: 2px;
 }
 
 #footer .sep {
-    margin: 0px 10px
+    margin: 0px 10px;
 }
 
 .credits {
     text-align: right;
     font-family: 'GB';
     font-size: 10px;
-    margin-bottom: 1em
+    margin-bottom: 1em;
 }
 
 @media (min-width: 1024px) {
     .credits {
-        font-size:12px
+        font-size:12px;
     }
 }
 
@@ -3519,13 +3445,13 @@ html.menu-panel-open body {
     line-height: 40px;
     background-color: #D9D9D6;
     font-size: 14px;
-    text-align: center
+    text-align: center;
 }
 
 .bar .inner {
     overflow: hidden;
     line-height: 20px;
-    padding: 10px 0
+    padding: 10px 0;
 }
 
 @media (max-width: 767px) {
