@@ -275,7 +275,7 @@ span.amp {
 
 @font-face {
     font-family: "FDBD";
-    src: url("../fonts/FreightDispBold.woff") format("woff")
+    src: url("../fonts/Newton-Regular.woff") format("woff")
 }
 
 @font-face {
@@ -286,6 +286,11 @@ span.amp {
 @font-face {
     font-family: "GM";
     src: url("../fonts/Gotham-Medium.woff") format("woff")
+}
+
+@font-face {
+    font-family: "Newton-Regular";
+    src: url("../fonts/Newton-Regular.woff") format("woff")
 }
 
 body {
@@ -2335,11 +2340,11 @@ svg .color-stroke {
     transition: stroke 0.4s cubic-bezier(0.075, 0.82, 0.165, 1)
 }
 
-#logo {
-    position: fixed;
+.logo {
+
     padding: 0px 15px;
     padding-top: 10px;
-    font-family: 'FDBD';
+    font-family: 'Newton-Regular'!important;
     letter-spacing: 2px;
     color: #000;
     opacity: .7;
@@ -2349,13 +2354,13 @@ svg .color-stroke {
 }
 
 @media (min-width: 768px) {
-    #logo {
+    .logo {
         padding:0px 20px
     }
 }
 
 @media (min-width: 1024px) {
-    #logo {
+    .logo {
         padding:0px 30px
     }
 }
@@ -2379,7 +2384,7 @@ svg .color-stroke {
 
 @media (min-width: 1024px) {
     #logo {
-        padding-top:30px;
+        padding-top: 30px;
         font-size: 18px;
     }
 }
